@@ -12,6 +12,7 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { HttpClientModule } from "@angular/common/http";
 import { ApiPaisesComponent } from './components/api-paises/api-paises.component';
 import { NoimagePipe } from './pipes/noimage.pipe';
+import { TarjetasComponent } from './components/shared/tarjetas/tarjetas.component';
 
 // Services
 //import { SpotifyService } from './services/spotify.service';
@@ -24,7 +25,8 @@ import { NoimagePipe } from './pipes/noimage.pipe';
     ArtistaComponent,
     NavbarComponent,
     ApiPaisesComponent,
-    NoimagePipe
+    NoimagePipe,
+    TarjetasComponent
   ],
   imports: [
     BrowserModule,

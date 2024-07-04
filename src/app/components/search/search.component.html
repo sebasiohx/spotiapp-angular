@@ -3,4 +3,5 @@
     <input #termino type="text" (keyup)="buscar(termino.value)" class="form-control" placeholder="Buscar artista...">
   </div>
 </div>
-<app-tarjetas [items]="artistas"></app-tarjetas>
+<app-loading *ngIf="loading"></app-loading>
+<app-tarjetas *ngIf="!loading" [items]="artistas"></app-tarjetas>

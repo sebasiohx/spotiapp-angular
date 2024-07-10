@@ -11,9 +11,10 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 // API
 import { HttpClientModule } from "@angular/common/http";
 import { ApiPaisesComponent } from './components/api-paises/api-paises.component';
-import { NoimagePipe } from './pipes/noimage.pipe';
 import { TarjetasComponent } from './components/shared/tarjetas/tarjetas.component';
 import { LoadingComponent } from './components/shared/loading/loading.component';
+import { NoimagePipe } from './pipes/noimage.pipe';
+import { DomseguroPipe } from './pipes/domseguro.pipe';
 
 // Services
 //import { SpotifyService } from './services/spotify.service';
@@ -27,6 +28,7 @@ import { LoadingComponent } from './components/shared/loading/loading.component'
     NavbarComponent,
     ApiPaisesComponent,
     NoimagePipe,
+    DomseguroPipe,
     TarjetasComponent,
     LoadingComponent
   ],

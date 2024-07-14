@@ -15,6 +15,7 @@ import { TarjetasComponent } from './components/shared/tarjetas/tarjetas.compone
 import { LoadingComponent } from './components/shared/loading/loading.component';
 import { NoimagePipe } from './pipes/noimage.pipe';
 import { DomseguroPipe } from './pipes/domseguro.pipe';
+import { ErrorMessageComponent } from './components/shared/error-message/error-message.component';
 
 // Services
 //import { SpotifyService } from './services/spotify.service';
@@ -30,7 +31,8 @@ import { DomseguroPipe } from './pipes/domseguro.pipe';
     NoimagePipe,
     DomseguroPipe,
     TarjetasComponent,
-    LoadingComponent
+    LoadingComponent,
+    ErrorMessageComponent
   ],
   imports: [
     BrowserModule,
